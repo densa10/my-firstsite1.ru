@@ -8,10 +8,19 @@
 	width: 455px;
 }
 
+.content_career_title{
+	font-family: "fira_sansmedium";
+	font-size: 35px;
+	color: #414141;
+	line-height: 43px;
+	margin: -3px 0;
+	font-weight: normal;
+}
+
 .career_img{
 	overflow: hidden;
 	border-radius: 9px;
-
+	margin-top: 25px;
 }
 
 .career_img_1{
@@ -22,23 +31,28 @@
 .career_list{
 	text-align: right;
 	margin: 0;
-	padding-left: 70px;
+	margin-top: 25px;
+	list-style-type: none;
 }
 
 .career_item{
+	padding-left: 30px;
+}
+
+.career_block{
 	border-radius: 10px;
-	border-color: #ffffff;
+	background-color: #ffffff;
 	width: 380px;
 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
 	box-sizing: border-box;
-	padding: 20px;
+	padding: 5px 20px;
 	display: inline-block;
 	text-align: left;
 	position: relative;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
-.career_item:after, .career_item:before{
+.career_block:after, .career_block:before{
 	content: "";
 	display: block;
 	width: 1px;
@@ -48,25 +62,25 @@
 	margin-right: 20px;
 }
 
-.career_item:first-child:before{
+.career_item:first-child .career_block:before{
 	display: none;
 }
 
-.career_item:last-child:after{
+.career_item:last-child .career_block:after{
 	display: none;
 }
 
-.career_item:before{
+.career_block:before{
 	top: 0;
 	bottom: 50%;
 }
 
-.career_item:after{
+.career_block:after{
 	top: 50%;
 	bottom: -25px;
 }
 
-.career_item:hover{
+.career_item:hover .career_block{
 	background: #33c1e3;
 }
 
@@ -92,21 +106,21 @@
 .career_title{
 	font-size: 21px;
 	color: #5a5a5a;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-family: "fira_sansregular";
 }
 
 .career_profession{
 	font-size: 18px;
 	color: #727272;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 	font-family: "fira_sanslight";
 }
 
 .career_time{
 	font-size: 18px;
 	color: #727272;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	font-family: "fira_sanslight";
 }
 

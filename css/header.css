@@ -16,7 +16,7 @@
 	}
 	.header_right{
 		text-align: right;
-		padding-top: 30px;
+		padding-top: 28px;
 	}
 	
 	.user_photo{
@@ -32,10 +32,10 @@
 	.user_name{
 		display: inline-block;
 		vertical-align: middle;
-		font-family: "Fira Sans";	
+		font-family: "fira_sansregular";	
 		font-size: 18px;
 		color: #414141;
-		margin-left: 21px;
+		margin-left: 12px;
 		max-width: 235px;
 		box-sizing: border-box;
 	}
@@ -44,7 +44,6 @@
 	font-family: "fira_sansbold";
 	color: #33c1e3;
 	text-decoration: none;
-	padding-bottom: 1px;
 	background: url('../images/decor/dotted-border.png') 0 bottom repeat-x;
 
 /* Header end */
