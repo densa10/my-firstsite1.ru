@@ -2,7 +2,52 @@
 @import "fonts.css";
 @import "normalize.css";
 
-.container{
-	width: 940px;
-	margin: 0 auto;
+html, body{
+	height: 100%;
 }
+
+body{
+	font-size: 18px;
+	line-height: 1.42;
+	color: #646464;
+	background: #f6f6f6;
+	margin: 0;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	position: relative;
+	min-width: 960px;
+}
+
+.wrapper:after{
+	content: "";
+	height: 50px;
+	display: block;
+}
+
+footer{
+	background: #414141;
+	height: 50px;
+	position: relative;
+	width: 100%;
+	min-width: 960px;
+	margin-top: -50px;
+}
+
+	.container{
+		width: 960px;
+		margin: 0 auto;
+		max-width: 940px;
+	}
+
+	.menu_items{
+		list-style: none;
+	}
+
+	.clearfix:after, .clearfix:before{
+		content: "";
+		display: block;
+		clear: both;
+	}

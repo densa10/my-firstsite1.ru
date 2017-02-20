@@ -1,0 +1,137 @@
+.career_left{
+	float: left;
+	width: 220px;
+}
+
+.career_right{
+	float: right;
+	width: 455px;
+}
+
+.career_img{
+	overflow: hidden;
+	border-radius: 9px;
+
+}
+
+.career_img_1{
+	display: block;
+	max-width: 100%;
+}
+
+.career_list{
+	text-align: right;
+	margin: 0;
+	padding-left: 70px;
+}
+
+.career_item{
+	border-radius: 10px;
+	border-color: #ffffff;
+	width: 380px;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+	box-sizing: border-box;
+	padding: 20px;
+	display: inline-block;
+	text-align: left;
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.career_item:after, .career_item:before{
+	content: "";
+	display: block;
+	width: 1px;
+	background: #dddddd;
+	position: absolute;
+	right: 100%;
+	margin-right: 20px;
+}
+
+.career_item:first-child:before{
+	display: none;
+}
+
+.career_item:last-child:after{
+	display: none;
+}
+
+.career_item:before{
+	top: 0;
+	bottom: 50%;
+}
+
+.career_item:after{
+	top: 50%;
+	bottom: -25px;
+}
+
+.career_item:hover{
+	background: #33c1e3;
+}
+
+.career_item:hover .career_title{
+	color: #fff;
+}
+
+.career_item:hover .career_profession, .career_item:hover .career_time{
+	color: #fff;
+}
+
+.career_item:hover .career_year{
+	font-family: "fira_sansbold";
+	color: #33c1e3;
+}
+
+.career_item:hover .career_year:after{
+	border-color: #94e0f2;
+}
+
+
+
+.career_title{
+	font-size: 21px;
+	color: #5a5a5a;
+	margin-bottom: 10px;
+	font-family: "fira_sansregular";
+}
+
+.career_profession{
+	font-size: 18px;
+	color: #727272;
+	margin-bottom: 10px;
+	font-family: "fira_sanslight";
+}
+
+.career_time{
+	font-size: 18px;
+	color: #727272;
+	margin-bottom: 15px;
+	font-family: "fira_sanslight";
+}
+
+.career_year{
+	position: absolute;
+	right: 100%;
+	top: 50%;
+	margin-top: -14px;
+	margin-right: 35px;
+	font-size: 14px;
+	color: #727272;
+	line-height: 28px;
+	z-index: 10;
+}
+
+.career_year:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #33c1e3;
+	border-radius: 50%;
+	position: absolute;
+	right: -25px;
+	top: 50%;
+	margin-top: -10px;
+	border: 5px solid #f6f6f6;
+}

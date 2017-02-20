@@ -1,0 +1,73 @@
+.about_img{
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 5px solid #fff;
+	display: inline-block;
+
+}
+
+.about_img_item{
+	display: block;
+}
+
+.about_left, .about_right{
+	float: left;
+}
+
+.about_left{
+	width: 320px;
+	text-align: center;
+}
+
+.about_right{
+	width: 380px;
+}
+
+.title{
+	font-family: "fira_sansmedium";	
+	font-size: 35px;
+	color: #414141;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+.about_description{
+	height: 300px;
+	overflow: auto;
+	margin-bottom: 40px;
+}
+
+.text_block p {
+	font-family: "fira_sanslight";
+	margin-top: 0;
+
+}
+
+.download{
+	text-align: right;
+}
+
+.btn{
+	padding: 7px 13px;
+	border: 2px solid #e85f61;
+	border-radius: 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "fira_sansbold";
+	color: #e85f61;
+}
+
+.btn_icon, .btn_text{
+	display: inline-block;
+	vertical-align: middle;
+}
+.btn_icon{
+	padding-right: 5px;
+}
+
+.btn:hover{
+	background: #e85f61;
+	color: #fff;
+}

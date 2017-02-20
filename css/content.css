@@ -1,0 +1,12 @@
+.sidebar, .page_content{
+	float: left;
+}
+
+.sidebar{
+	width: 220px;
+}
+
+.page_content{
+	margin-left: 20px;
+	width: 700px;
+}

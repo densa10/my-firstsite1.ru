@@ -1,0 +1,59 @@
+.footer_left, .footer_right{
+	float: left;
+	width: 50%;
+}
+
+.footer_left{
+	padding-top: 18px;
+}
+
+.footer_right{
+	text-align: right;
+}
+.copyright{
+	font-size: 14px;
+	font-family: "fira_sanslight";
+	color: #9c9c9c;
+}
+
+.social_items{
+	margin:  0;
+	padding: 0;
+}
+
+.social_item{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 0 9px 8px;
+}
+
+.social_link{
+	width: 31px;
+	height: 31px;
+	display: block;
+	background: no-repeat center center;
+}
+
+.social_link_fb{
+	background-image: url('../images/icons/facebook.png');
+}
+
+.social_link_fb:hover{
+	background-image: url('../images/icons/facebook_2.png');
+}
+
+.social_link_tw{
+	background-image: url('../images/icons/Twitter.png');
+}
+
+.social_link_tw:hover{
+	background-image: url('../images/icons/Twitter_2.png');
+}
+
+.social_link_vk{
+	background-image: url('../images/icons/vk.png');
+}
+
+.social_link_vk:hover{
+	background-image: url('../images/icons/vk_2.png');
+}
