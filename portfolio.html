@@ -3,104 +3,193 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Мое портфолио</title>
+
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/content.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/footer.css">
+
+	<link rel="stylesheet" href="css/portfolio.css">
 </head>
 <body>
 	
 	<div class="wrapper">
-		<header>
-			<div class="container">
+<!-- Header  -->
+
+		<header class="header">
+			<div class="container clearfix">
 				<div class="header_left">
-					<div>
-						<div>
-							<img src="images/content/about_smallAvatar.jpg" alt="Logotip_1">
+					<div class="user">
+						<div class="user_photo">
+							<img src="images/content/avatar.jpg" alt="Logotip_1" class="user_photo">
 						</div>
-						<div>
+						<div class="user_name">
 							Денис Кокорин
 						</div>
 					</div>
 				</div>
 				<div class="header_right">
-					<a href="#">Мои контакты</a>
+					<a class="contacts" href="#">Мои контакты</a>
 				</div>
 			</div>
 		</header>
-		<section>
-			<div class="container">
-				<aside>
-					<nav>
-						<ul>
-							<li><a href="index.html">Обо мне</a></li>
-							<li><a href="career.html">Карьерный путь</a></li>
-							<li><a href="#">Портфолио</a></li>
+
+		<!-- Content  -->
+		<section class="content">
+			<div class="container clearfix">
+
+			<!-- Sidebar  -->
+				<aside class="sidebar">
+					<nav class="menu">
+						<ul class="menu_items">
+							<li class="menu__item">
+								<a class="menu__link" href="index.html">
+									<span class="menu_icon"><i class="fa fa-user-secret" aria-hidden="true"></i></span>
+									<span class="menu_title">Обо мне</span>
+								</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">
+									<span class="menu_icon"><i class="fa fa-rocket" aria-hidden="true"></i></span>
+									<span class="menu_title">Карьерный путь</span>
+								</a>
+							</li>
+							<li class="menu__item menu__item_active">
+								<a class="menu__link" href="portfolio.html">
+									<span class="menu_icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+									<span class="menu_title">Портфолио</span>
+								</a>
+							</li>
 						</ul>
 					</nav>
 				</aside>
-				<main>
+
+			<!-- Page content  -->
+				<main class="page_content">
+					<h1 class="content_portfolio_title">Портфолио</h1>
 					<div class="portfolio">
-						<div>
-							<h1>Портфолио</h1>
-						</div>
-							<ul>
-								<li>
-									<a href="#">
-										<div><img src="images/content/work_1.jpg" alt="App"></div>
-										<div>Deals App</div>
-										<div>Продажа одежды</div>
-										<div>Приложение</div>
-									</a>
-								</li>
-								<li>
-									<a href="">
-										<div><img src="images/content/work_2.jpg" alt="Landing page"></div>
-										<div>Dream-scapes</div>
-										<div>Лагуна-Люфтганза</div>
-										<div>Лендинг</div>
-									</a>
-								</li>
-								<li>
-									<a href="#">		
-										<div><img src="images/content/work_3.jpg" alt="Corporate site"></div>
-										<div>Creative studio</div>
-										<div>Танцевальна студия</div>
-										<div>Корпоративный сайт</div>
-									</a>	
-								</li>
-								<li>
-									<a href="#">	
-										<div><img src="images/content/work_4.jpg" alt="Landing page"></div>
-										<div>Studio Frog</div>
-										<div>Мебельный магазин</div>
-										<div>Лендинг</div>
-									</a>	
-								</li>
-								<li>
-									<a href="#">	
-										<div><img src="images/content/work_5.jpg" alt="Landing page"></div>
-										<div>Carbonara</div>
-										<div>Итальянский ресторан</div>
-										<div>Лендинг</div>
-									</a>
-								</li>
-							</ul>
+						<ul class="portfolio_list clearfix">
+							<li class="portfolio_item">
+								<a href="#" class="portfolio_link">
+									<div class="portfolio_img">
+										<img src="images/content/work_1.jpg" class="portfolio_img" alt="Портфолио 1">
+									</div>
+									<div class="portfolio_desc">
+										<div class="portfolio_title">
+											Deals app
+										</div>
+										<div class="portfolio_work_desc">Продажа одежды</div>
+										<div class="portfolio_type">
+											<i class="fa fa-mobile-phone portfolio_type_icon"></i>  
+											<div class="portfolio_type_title">Приложение</div>	
+										</div>
+									</div>
+								</a>
+							</li>
+														<li class="portfolio_item">
+								<a href="#" class="portfolio_link">
+									<div class="portfolio_img">
+										<img src="images/content/work_2.jpg" class="portfolio_img" alt="Портфолио 1">
+									</div>
+									<div class="portfolio_desc">
+										<div class="portfolio_title">
+											Dream scapes
+										</div>
+										<div class="portfolio_work_desc">Лагуна Люфтганза</div>
+										<div class="portfolio_type">
+											<i class="fa fa-television" aria-hidden="true"></i> 
+											<div class="portfolio_type_title">Лендинг</div>	
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="portfolio_item">
+								<a href="#" class="portfolio_link">
+									<div class="portfolio_img">
+										<img src="images/content/work_3.jpg" class="portfolio_img" alt="Портфолио 1">
+									</div>
+									<div class="portfolio_desc">
+										<div class="portfolio_title">
+											Creative studio
+										</div>
+										<div class="portfolio_work_desc">Танцевальная студия</div>
+										<div class="portfolio_type">
+											<i class="fa fa-television" aria-hidden="true"></i>
+											<div class="portfolio_type_title">Корпоративный сайт</div>	
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="portfolio_item">
+								<a href="#" class="portfolio_link">
+									<div class="portfolio_img">
+										<img src="images/content/work_4.jpg" class="portfolio_img" alt="Портфолио 1">
+									</div>
+									<div class="portfolio_desc">
+										<div class="portfolio_title">
+											Studio Frog
+										</div>
+										<div class="portfolio_work_desc">Мебельный магазин</div>
+										<div class="portfolio_type">
+											<i class="fa fa-television" aria-hidden="true"></i>  
+											<div class="portfolio_type_title">Лендинг</div>	
+										</div>
+									</div>
+								</a>
+							</li>
+							<li class="portfolio_item">
+								<a href="#" class="portfolio_link">
+									<div class="portfolio_img">
+										<img src="images/content/work_5.jpg" class="portfolio_img" alt="Портфолио 1">
+									</div>
+									<div class="portfolio_desc">
+										<div class="portfolio_title">
+											Carbonara
+										</div>
+										<div class="portfolio_work_desc">Итальянский ресторан</div>
+										<div class="portfolio_type">
+											<i class="fa fa-television" aria-hidden="true"></i>
+											<div class="portfolio_type_title">Лендинг</div>	
+										</div>
+									</div>
+								</a>
+							</li>
+						</ul>
 					</div>
 				</main>
-			</div>
+
 		</section>
 	</div>
-	<footer>
-		<div class="container">
-			<div>
-				<div>&copy; Дизайн сайта был разработан в школе LoftSchool</div>
+	<footer class="footer">
+		<div class="container clearfix">
+			<div class="footer_left">
+				<div class="copyright">
+					&copy; Дизайн сайта был разработан в школе LoftSchool
+				</div>
 			</div>
-			<div>
-				<ul>
-					<li><a href="#"><img src="images/icons/facebook.png" alt="Facebook_icon"></a></li>
-					<li><a href="#"><img src="images/icons/Twitter.png" alt="Twitter_icon"></a></li>
-					<li><a href="#"><img src="images/icons/vk.png" alt="Vk_icon"></a></li>
+			<div class="footer_right">
+				<ul class="social_items">
+					<li class="social_item">
+						<a href="#" class="social_link social_link_fb">
+						</a>
+					</li>
+					<li class="social_item">
+						<a href="#" class="social_link social_link_vk">
+						</a>
+					</li>
+					<li class="social_item">
+						<a href="#" class="social_link social_link_tw">
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
-	</footer>
+	</footer>	
 
 </body>
 </html>
