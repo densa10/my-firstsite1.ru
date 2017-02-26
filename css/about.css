@@ -58,6 +58,7 @@
 	font-family: "fira_sansbold";
 	color: #e85f61;
 	margin: 2px 2px;
+	display: inline-block;
 }
 
 .btn_icon, .btn_text{

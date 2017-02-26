@@ -1,0 +1,110 @@
+@media screen and (max-width: 768px) {
+	 .container {
+	 	width: 480px;
+	 }
+
+	.header_left{
+		width: 70%;
+	}
+
+	.header_right{
+		width: 30%;
+		padding-top: 0px;
+	}
+
+	.contacts{
+		background: url('../../images/icons/phone.png') 0 0 no-repeat;
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		font-size: 0px;
+	}
+
+	 .about_left, .about_right{
+	 	float: none;
+	 	width: 100%;
+	 }
+
+	 .title{
+	 	text-align: center;
+	 	margin-bottom: 15px;
+	 }
+
+	 .menu__item{
+	 	margin-right: 5px;
+	 }
+
+	 .download{
+	 	text-align: justify;
+	 }
+
+	 .content_career_title{
+	 	text-align: center;
+	 }
+
+	 .content_portfolio_title{
+	 	text-align: center;
+	 }
+
+	 .career_left, .career_right{
+	 	width: 100%;
+	 	float: none;
+	 }
+
+	 .career_left{
+	 	text-align: center;
+	 }
+
+	.career_list{
+		padding: 0;
+	}
+
+	 .career_img{
+	 	display: inline-block;
+	 }
+
+	.career_block{
+	 	display: block;
+		width: 100%;
+	}
+
+	 .career_block:after, .career_block:before{
+		display: none;
+	 }
+
+	 .career_year{
+	 	display: none;
+	 }
+
+	 .career_item{
+	 	padding: 0;
+	 }
+
+	 .career_title{
+	 	font-size: 18px;
+	 }
+
+	 .career_profession, .career_time{
+	 	font-size: 16px;
+	 }
+	 .portfolio_item{
+	 	width: calc(100% / 2 - 20px;)
+	 }
+
+
+	 .footer{
+	 	height: 95px;
+	 	margin-top: -95px;
+	 }
+
+	 .wrapper:after{
+	 	height: 95px;
+	 	margin-bottom: 50px;
+	 }
+
+	 .footer_left, .footer_right{
+	 	float: none;
+	 	width: 100%;
+	 	text-align: center;
+	 }
+}

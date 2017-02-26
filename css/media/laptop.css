@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+	 .container {
+	 	width: 730px;
+	 }
+
+	 .sidebar, .page_content{
+		float: none;
+		width: 100%;
+		margin-left: 0;
+	 }
+
+	 .sidebar{
+	 	margin-bottom: 35px;
+	 }
+	
+	.menu__item{
+		display: inline-block;
+		vertical-align: middle;
+		margin-right: 25px;
+	}
+	.menu__link{
+		text-align: left;
+		border: none;
+		padding-right: 25px;
+	}
+
+	.about_left{
+		width: 30%;
+	}
+
+	.about_right{
+		width: 70%;
+	}
+
+	.about_img{
+		width: 165px;
+		height: 165px;
+	}
+
+	.about_img_item{
+		width: 165px;
+		height: 165px;
+	}
+}
